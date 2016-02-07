@@ -1,0 +1,71 @@
+
+.wrapper{
+	width:1024px;
+	margin: 0 auto;
+	
+	
+}
+body{
+	background: #FFFFFF;
+}
+table{
+	width:800px;
+	
+}
+table tr{
+	
+	border-bottom:solid 1px rgb(151,199,223);
+	padding:31px;
+}
+table td{
+	padding:20px;
+}
+.task td:first-child{
+	padding:0;
+	width:45px;
+	text-aligin:center;
+}
+.description{
+	border-left:solid 1px rgb(199,79,79);
+}
+
+.add{
+	margin: 0 10px 0 20px;
+	padding: 0 15px 0 10px;
+	width:500px;
+	height:30px;
+
+}
+#add-button{
+	
+	background-color:#FFFFFF;
+	background-image:url(../../src/img/add.png);
+	background-position:  0px 0px;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 20px;
+	border: 0px;
+	background-color: none;
+	cursor: pointer;
+	outline: 0;
+	/*font needs for hide value in input buttom*/
+	font-size:0;
+	line-height: 0;
+
+}
+#del-button{
+	background-color:#FFFFFF;
+	background-image:url(../../src/img/icon_delete.png);
+	background-position:  0px 0px;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	border: 0px;
+	background-color: none;
+	cursor: pointer;
+	outline: 0;
+	/*font needs for hide value in input buttom*/
+	font-size:0;
+	line-height: 0;
+}
+
